@@ -1,3 +1,19 @@
+/* Here are the steps to implement:
+
+1. Declare a character array (zo) to store the input string.
+2. Read the input string from the user.
+3. Initialize counters (x and y) for 'z' and 'o'.
+4. Iterate through the characters in the string using a loop.
+ - If the current character is 'z', increment the 'z' counter (x).
+ - If the current character is 'o', increment the 'o' counter (y).
+ - If the current character is neither 'z' nor 'o', exit the loop.
+5. Check if the number of 'z' characters is exactly half the number of 'o' characters.
+ - Print "Yes" if the condition is true.
+ - Print "No" otherwise.
+
+
+This code appears to check if the input string contains twice as many 'z' characters as 'o' characters and prints "Yes" or "No" accordingly. */
+
 #include <stdio.h>
 #include <string.h>
 
